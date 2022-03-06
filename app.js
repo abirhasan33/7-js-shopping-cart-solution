@@ -1,4 +1,5 @@
 function updeteproductNumber (product, price, isIncresing){
+    console.count('updete fn clicked');
     const productInput = document.getElementById(product + '-number');
     let productNumber = productInput.value;
     if(isIncresing == true){
